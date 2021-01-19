@@ -6,17 +6,15 @@
 	<meta charset="utf-8" />
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" href="login_style.css">
-
-
-
-
+	<link rel="stylesheet" type="text/css" href="login_style.css" />
+	
+	
 </head>
 <title> view event</title>
 <body class="bg" style="margin-left: 0px; margin-right: 0px; margin-top: 0px">
 
 	
-	 <form action="login2.php" method="post" enctype="multipart/form-data">
+	 <form action="js-assignment/login2.php" method="post" enctype="multipart/form-data">
 	 
 	<div class="box" style="margin-top:100px; postion:absolute" >
 		<table style="margin-left:25%; margin-top:0px;">
@@ -37,7 +35,7 @@
 		
 			<tr>
 				<td>
-			 <input type="password" id="Password" name="Password" placeholder="Password"style="font-size:large">
+			 <input type="password" id="Password" name="Password" placeholder="Password"style="font-size:large" />
 			 </td>
 			</tr> <br /> <br />
 			<tr>
