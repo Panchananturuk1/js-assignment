@@ -57,7 +57,6 @@ design.css
     
 }
 
-
 .font{
 	font-size:20px;
 	margin-top:45%;
@@ -79,9 +78,6 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
-
-
-
 
 button2:hover{
 	 background-color: #45a049;
