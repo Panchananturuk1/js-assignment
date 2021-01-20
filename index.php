@@ -22,16 +22,12 @@
 	 <form action="login2.php" method="post" enctype="multipart/form-data">
 	 
 	 
-<table style="margin-left:30%" >
-			  <tr style="margin-top:100px">
-					<button   name="button"  style="font-size:x-large">
-					<b> Try it free 7 says</b> then $20/mo. thereafter </button>
-			</tr> </table>
+	
+					<input type="submit" class="submit" type="submits"  name="submit"  style="font-size:x-large; margin-left:100px" >
+					<b> Try it free 7 says</b> then $20/mo. thereafter </input>
+		
 	 
 	<div class="box" style="margin-top:100px;" >
-	
-
-	
 				
 
 		<table style="margin-left:25%; margin-top:0px;">

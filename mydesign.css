@@ -1,8 +1,6 @@
 design.css
 	
 
-
-
     input[type=text] {
     width: 70%;
     padding: 12px 20px;
@@ -14,7 +12,6 @@ design.css
     text-align: left;
     margin-left:140px;
     }
-
 
 
  input[type=password] {
@@ -42,6 +39,8 @@ design.css
     }
 
 
+
+
 .box {
   max-width: 400px;
   width: 100%;
@@ -63,30 +62,9 @@ design.css
 }
 
 
-input[type=submit] {
-    width: 25%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left:230px;
-}
-
 input[type=submit]:hover {
     background-color: #45a049;
 }
-
-button2:hover{
-	 background-color: #45a049;
-	
-}
-
-
-
-
 
 
 
