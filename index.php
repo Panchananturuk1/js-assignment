@@ -24,7 +24,7 @@
 	 
 <table style="margin-left:30%" >
 			  <tr style="margin-top:100px">
-					<button type="submit" class="button2" name="button" placeholder="Password"  style="font-size:x-large">
+					<button   name="button"  style="font-size:x-large">
 					<b> Try it free 7 says</b> then $20/mo. thereafter </button>
 			</tr> </table>
 	 
