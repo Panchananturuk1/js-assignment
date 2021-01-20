@@ -21,8 +21,21 @@
 	
 	 <form action="login2.php" method="post" enctype="multipart/form-data">
 	 
+	 
+<table style="margin-left:30%" >
+			  <tr style="margin-top:100px">
+					<button type="submit" class="button2" name="button" placeholder="Password"  style="font-size:x-large">
+					<b> Try it free 7 says</b> then $20/mo. thereafter </button>
+			</tr> </table>
+	 
 	<div class="box" style="margin-top:100px;" >
+	
+
+	
+				
+
 		<table style="margin-left:25%; margin-top:0px;">
+		
 		
 		<tr>
 			<td> <input type="text" id="Emailid" name="Emailid" placeholder="First Name" style="font-size:large" /> </td> 
@@ -43,10 +56,12 @@
 			 <input type="password" id="Password" name="Password" placeholder="Password"style="font-size:large" />
 			 </td>
 			</tr> <br /> <br />
-			<tr>
+			<table style="margin-left:100px; top:20px" >
+			<tr style="margin-top:100px">
 				
 					<button type="submit" class="button" name="button" placeholder="Password"  style="font-size:x-large"> CLAIM YOUR FREE TRIAL </button> 
-			</tr>
+				
+			</tr> </table>
 		</table>
   </div>
   </form>
