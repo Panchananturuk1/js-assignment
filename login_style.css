@@ -1,6 +1,5 @@
 
-		
-
+	
 
     input[type=text], select {
     width: 60%;
@@ -31,14 +30,6 @@
 
 .box {
 	
-    margin: 9px 0;
-    border-radius: 10px;
-    background-color: #FEFCFC;
-    padding: 10px;
-    width:45%;
-	height:400px;
-    color:green;
-	margin-left:40%;
     
 }
 
@@ -49,7 +40,7 @@
 }
 
 button{
-	position:center;
+	
 	width: 100%;
     background-color: #4CAF50;
     color: white;
@@ -76,23 +67,3 @@ body, html {
   margin: 0;
 }
 
-.bg {
- 
-  background-image: url("bg-intro-desktop.png");
-  opacity: 1.5;
-  background-color:red;
- 
-  height: 100%; 
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-img {
-  opacity: 0.5;
-}
-
-img:hover {
-  opacity: 1.0;

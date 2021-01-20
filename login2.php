@@ -6,17 +6,22 @@
 	<meta charset="utf-8" />
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" href="login_style.css" />
-	
+	<link rel="stylesheet" type="text/css" href="js-assignment/login_style.css" />
+
 	
 </head>
+<style>
+	
+		
+	
+	</style>
 <title> view event</title>
 <body class="bg" style="margin-left: 0px; margin-right: 0px; margin-top: 0px">
 
 	
-	 <form action="js-assignment/login2.php" method="post" enctype="multipart/form-data">
+	 <form action="login2.php" method="post" enctype="multipart/form-data">
 	 
-	<div class="box" style="margin-top:100px; postion:absolute" >
+	<div class="box" style="margin-top:100px;" >
 		<table style="margin-left:25%; margin-top:0px;">
 		
 		<tr>
@@ -39,13 +44,13 @@
 			 </td>
 			</tr> <br /> <br />
 			<tr>
-				<td> 
+				<td style="margin-left:0x"> 
 					<button type="submit" class="button" name="button" placeholder="Password"  style="font-size:x-large"> CLAIM YOUR FREE TRIAL </button> </td>
 			</tr>
 		</table>
   </div>
   </form>
-  
+ 
   
 </body>
 	</html>
