@@ -1,5 +1,9 @@
 
 
+
+
+
+
 <script src="validation.js">
 
   if( document.myForm.Name.value == "" )
@@ -87,53 +91,44 @@
 </script>
 
 
-<!DOCTYPE html>
-<html>
 
+
+<html>
+<title>Add Student </title>
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" href="mydesign.css" />
-	
-	<style>
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-	</style
+<link rel="stylesheet" type="text/css" href="admin_page3.css" />
+
+ 
+      
+
 </head>
 
-<title> view event</title>
-<body  class="bg"  style="margin-left: 0px; margin-right: 0px; margin-top: 0px">
-
+<style>
 
 		
-    
+</style>
 
-	 <form action="index.php" method="post" name="myForm" onsubmit="return(validate());" enctype="multipart/form-data">
-	 
+<body style="margin-left: 0px; margin-right: 0px; margin-top: 0px">
 
-				<div style="width:420px; float:left; margin-top:10%;margin-left:10%">
-			<p style="font-size:60px; color:white"> Learn to code by<br />
-				watching others</p>
-			<p style="color:white">see how wxperienced developers solve problems in real-time.<br />
-				watching scripted tutorials is great, but understanding how<br />
-				developers think is invaluable</p>
+ 
+
 	
-			</div>
-			
-			<div style="width:500px;float:right;text-align:left">
-			
-				<button type="button" class="but2" name="button" >
-					<b> Try it free 7 says</b> then $20/mo. thereafter </button>
-					
-					
-					
-			<div class="box" >	
-			<table style="margin-left:20%; margin-top:0px;">
+
+<form action="test.php" method="post"  name="myForm" onsubmit="return(validate());"  enctype="multipart/form-data">
+	<div class="box"  >
+      <h1 style="text-align:center; font-size:40px;" >Registration</h1><br />
+	  
+	  
+	  
+		
+	
+		
+
+
+  
+
+
+	   			<table style="margin-left:25%; margin-top:0px;">
 		
 		
 		<tr>
@@ -154,30 +149,17 @@
 				<td>
 			 <input type="password" id="Password" name="Password" placeholder="Password"style="font-size:large" />
 			 </td>
-			</tr><br /><br />
-			
+			</tr> <br /> <br />
 			<table style="margin-left:100px; top:20px" >
-				<tr style="margin-top:100px">
-					<button type="submit" class="but1" name="button" placeholder="Password"  style="font-size:x-large"> CLAIM YOUR FREE TRIAL </button>  
-				</tr>
-					
-					<tr>
-					 <center>
-						<p style="color:CABEBE;  font-size:12px"> By Clicking the button you are agreeing to our
-						<a href="" style="text-decoration:none; color:red">Terms and Condition </a></p>
-					</center>
-					</tr>
-			</table>
-		</table>
-		
-		</div>
-			</div>
-		
-			
-	
+			<tr style="margin-top:100px">
+				<input class="submit" name="submit" type="submit" value="Submit">  
+				
+			</tr> </table>
+		</table> 
   
+   
   </form>
- 
   
-</body>
-	</html>
+     </div>
+
+</html>

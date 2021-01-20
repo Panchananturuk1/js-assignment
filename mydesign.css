@@ -7,7 +7,7 @@ design.css
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     box-sizing: border-box;
     text-align: left;
     margin-left:140px;
@@ -20,7 +20,7 @@ design.css
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     box-sizing: border-box;
     text-align: left;
     
@@ -32,7 +32,7 @@ design.css
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     box-sizing: border-box;
     text-align: left;
     
@@ -45,18 +45,15 @@ input[type=submit] {
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     
 }
 
-
-
-
 .but2{
 	
 	left:200px;
-	margin-left:10%;
+	margin-left:5%;
 	margin-top:20%;
 	font-size:large;
 	width: 80%;
@@ -67,7 +64,7 @@ input[type=submit] {
     padding: 23px:
     margin: 8px 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;	
 }
 
@@ -81,9 +78,9 @@ input[type=submit] {
   margin: 9px 0;
   border-radius: 20px;
   background-color: #FEFCFC;
-  border-radius: 5px;
-  height:350px;
-  margin-left:10%;
+  border-radius: 8px;
+  height:400px;
+  margin-left:5%;
     
 }
 
@@ -91,14 +88,6 @@ input[type=submit] {
 	font-size:20px;
 	margin-top:45%;
 }
-
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-
-
 
 
 
@@ -110,10 +99,10 @@ input[type=submit]:hover {
     background-color: #4CAF50;
     color: white;
 	text-align:center;
-    padding: 04px 0px;
+    padding: 02px 0px;
     margin: 8px 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;	
 }
 
@@ -136,6 +125,11 @@ body, html {
   
 }
 
+.myDiv {
+    position: relative;
+    z-index: 1;
+}
+
 .bg {
  
   
@@ -149,9 +143,14 @@ body, html {
 
 }
 
-img {
+
+
+background-image {
   opacity: 0.5;
 }
 
 img:hover {
   opacity: 1.0;
+  
+  
+  
