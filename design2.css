@@ -58,7 +58,7 @@ input[type=submit] {
 	font-size:large;
 	width: 80%;
 	height:40px;
-    background-color: purple;
+    background-color: 732DCD;
     color: white;
 	text-align:center;
     padding: 23px:
@@ -109,10 +109,7 @@ input[type=submit] {
 
 
 
-button:hover{
-	 background-color: #45a049;
-	
-}
+
 
 
 

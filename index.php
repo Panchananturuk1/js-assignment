@@ -51,7 +51,7 @@
     
 	
 	
-			      if( document.myForm.Emailid.value == "" ) 
+			 if( document.myForm.Emailid.value == "" ) 
          {
             alert( "Please provide your Emailid!" );
             document.myForm.Emailid.focus() ;
@@ -95,7 +95,7 @@
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1" />
 		
-	<link rel="stylesheet" type="text/css" href="design2.css" />
+	<link rel="stylesheet" type="text/css" href="mydesign.css" />
 	
 	<style>
 @media screen and (max-width: 600px) {
@@ -108,69 +108,45 @@
 </head>
 
 <title> view event</title>
-<body  class="bg"  style="margin-left: 0px; margin-right: 0px; margin-top: 0px">
-
-
-		
-    
+<body  class="bg">
 
 	 <form action="index.php" method="post" name="myForm" onsubmit="return(validate());" enctype="multipart/form-data">
 	 
 
-				<div style="width:420px; float:left; margin-top:10%;margin-left:10%">
-			<p style="font-size:60px; color:white"> Learn to code by<br />
+				<div class="mycontent">
+			<p  class="paraleft1"> Learn to code by<br />
 				watching others</p>
-			<p style="color:white">see how wxperienced developers solve problems in real-time.<br />
+				
+			<p class="paraleft2">see how wxperienced developers solve problems in real-time.<br />
 				watching scripted tutorials is great, but understanding how<br />
 				developers think is invaluable</p>
 	
 			</div>
 			
-			<div style="width:500px;float:right;text-align:left">
+			<div class="mybox">
+			<div>
 			
 				<button type="button" class="but2" name="button" >
-					<b> Try it free 7 says</b> then $20/mo. thereafter </button>
-					
-					
+					<b> Try it free 7 says</b> then $20/mo. thereafter </button>  </div>
 					
 			<div class="box" >	
-			<table style="margin-left:20%; margin-top:0px;">
-		
-		
-		<tr>
-			<td> <input type="text" id="Emailid" name="Name" placeholder="First Name" style="font-size:large" /> </td> 
-		</tr>
-		
-		<tr>
-			<td>
-			 <input type="text" id="Emailid" name="Lname" placeholder="Last Name" style="font-size:large" /> </td>
-		</tr>
-		
-		<tr>
-			<td>
-			 <input type="text" id="Emailid" name="Emailid" placeholder="Email Address" style="font-size:large" /></td>
-		</tr>
-		
-			<tr>
-				<td>
-			 <input type="password" id="Password" name="Password" placeholder="Password"style="font-size:large" />
-			 </td>
-			</tr><br /><br />
 			
-			<table style="margin-left:100px; top:20px" >
-				<tr style="margin-top:100px">
-					<button type="submit" class="but1" name="button" placeholder="Password"  style="font-size:x-large"> CLAIM YOUR FREE TRIAL </button>  
-				</tr>
-					
-					<tr>
-					 <center>
-						<p style="color:CABEBE;  font-size:12px"> By Clicking the button you are agreeing to our
-						<a href="" style="text-decoration:none; color:red">Terms and Condition </a></p>
-					</center>
-					</tr>
-			</table>
-		</table>
+			<input type="text" id="MyName" name="Name" placeholder="First Name"  /> 
 		
+			<input type="text" id="My Last Name" name="Lname" placeholder="Last Name"  /> 
+	
+			 <input type="text" id="Emailid" name="Emailid" placeholder="Email Address"  />
+
+			 <input type="password" id="Password" name="Password" placeholder="Password"  />
+		
+			<br /><br />
+				<button type="submit" class="but1" name="button" placeholder="Password" > CLAIM YOUR FREE TRIAL </button>  	
+				
+					 <center>
+						<p style="" class="para"> By Clicking the button you are agreeing to our
+						<a href="" class="term">Terms and Condition </a></p>
+					</center>
+
 		</div>
 			</div>
 		

@@ -52,10 +52,10 @@
       alert("Enter a valid name ");
       document.myForm.Lname.focus();
       return false;
-    
+	   }
 	
 	
-			      if( document.myForm.Emailid.value == "" ) 
+		if(document.myForm.Emailid.value == "" ) 
          {
             alert( "Please provide your Emailid!" );
             document.myForm.Emailid.focus() ;
