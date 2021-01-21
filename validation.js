@@ -3,10 +3,7 @@
  function validate()
       {
       
-	  
 
-	  
-	  
 	  
          if( document.myForm.Name.value == "" )
          {

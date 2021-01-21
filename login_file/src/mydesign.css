@@ -79,11 +79,11 @@ input[type=submit] {
 	font-size:large;
 	width: 80%;
 	height:40px;
-    background-color: purple;
-    color: white;
+  background-color: purple;
+  color: white;
 	text-align:center;
-    padding: 23px;
-    margin: 8px 0;
+  padding: 23px;
+  margin: 8px 0;
     border: none;
     border-radius: 8px;
     cursor: pointer;	

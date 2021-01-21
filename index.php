@@ -95,7 +95,7 @@
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1" />
 		
-	<link rel="stylesheet" type="text/css" href="mydesign.css" />
+	<link rel="stylesheet" type="text/css" href="NewDesign.css" />
 	
 	<style>
 @media screen and (max-width: 600px) {
@@ -126,8 +126,9 @@
 			<div class="mybox">
 			<div>
 			
-				<button type="button" class="but2" name="button" >
-					<b> Try it free 7 says</b> then $20/mo. thereafter </button>  </div>
+				<button type="button" class="but3" name="button" >
+					<b> Try it free 7 says</b> then $20/mo. thereafter </button>
+			</div>
 					
 			<div class="box" >	
 			
@@ -143,11 +144,11 @@
 				<button type="submit" class="but1" name="button" placeholder="Password" > CLAIM YOUR FREE TRIAL </button>  	
 				
 					 <center>
-						<p style="" class="para"> By Clicking the button you are agreeing to our
+						<p class="para"> By Clicking the button you are agreeing to our
 						<a href="" class="term">Terms and Condition </a></p>
 					</center>
 
-		</div>
+				</div>
 			</div>
 		
 			
