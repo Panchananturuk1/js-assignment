@@ -95,7 +95,7 @@
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1" />
 		
-	<link rel="stylesheet" type="text/css" href="NewDesign.css" />
+	<link rel="stylesheet" type="text/css" href="newstyle.css" />
 	
 	<style>
 @media screen and (max-width: 600px) {
