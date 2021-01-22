@@ -17,7 +17,7 @@ function App() {
 			</div> 
       
 
-<div class="">
+<div class="mybox">
       <div>
 			
       <button type="button" class="but2" name="button" >
